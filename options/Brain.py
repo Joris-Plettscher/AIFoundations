@@ -4,8 +4,8 @@ class Brain:
 
     def calculate_turn_angle(self, distances, goal_distances) -> int:
         # Your logic to calculate the angle to which the car should turn goes here
-        # You can use the distances and goal_in_range parameters to make decisions
-        # about the turn angle
+        # You can use the distances (list of distances to edge of street from frontcamera [0], back [1], right [2] and left [3]  - cameras have a visual range of 50) 
+        # and goal_distances parameters (list of distances to the goal from frontcamera [0], back [1], right [2] and left [3]  - cameras have a visual range of 50) to make decisions about the turn angle
         # For example, you might use a simple decision-making process or implement
         # a more sophisticated algorithm to calculate the angle
         # Return an integer between 0 and 360
@@ -14,7 +14,8 @@ class Brain:
     def calculate_move(self, distances, goal_distances) -> int:
         # Your logic to determine whether the car should move forward or backward
         # after turning goes here
-        # You can use the distances and goal_in_range parameters to make decisions
+        # You can use the distances (list of distances to edge of street from frontcamera [0], back [1], right [2] and left [3]  - cameras have a visual range of 50)  
+        # and goal_distances parameters (list of distances to the goal from frontcamera [0], back [1], right [2] and left [3]  - cameras have a visual range of 50) to make decisions
         # about moving forward or backward
         # For example, you might use a simple decision-making process or implement
         # a more sophisticated algorithm to determine the movement direction
