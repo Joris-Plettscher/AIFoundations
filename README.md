@@ -3,6 +3,8 @@
 Want to learn the basics of AI? This project provides all you need for a simulation of cars and creating levels for the cars to try. 
 Implement your own way of letting the cars learn by themselves how to pass the level
 
+![Screenshot](Screenshot.jpg)
+
 ## Table of Contents
 
 - Project Description
