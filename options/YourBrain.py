@@ -6,7 +6,7 @@ class YourBrain:
 
     def calculate_turn_angle(self, distances, goal_distances):
         # Your logic to calculate the angle to which the car should turn goes here
-        # You can use the distances and goal_in_range parameters to make decisions
+        # You can use the distances and goal_distances parameters (view Brain.py for explanation) to make decisions
         # about the turn angle
         # For example, you might use a simple decision-making process or implement
         # a more sophisticated algorithm to calculate the angle
@@ -16,7 +16,7 @@ class YourBrain:
     def calculate_move(self, distances, goal_distances):
         # Your logic to determine whether the car should move forward or backward
         # after turning goes here
-        # You can use the distances and goal_in_range parameters to make decisions
+        # You can use the distances and goal_distances parameters (view Brain.py for explanation) to make decisions
         # about moving forward or backward
         # For example, you might use a simple decision-making process or implement
         # a more sophisticated algorithm to determine the movement direction
