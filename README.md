@@ -19,7 +19,7 @@ The LevelEditor allows users to create custom levels by defining a series of con
 
 ## Installation
 
-Ensure you have Python installed on your system (Python 3.6 or later is recommended).
+Ensure you have Python installed on your system (Python 3.6 or later is recommended).  
 Install further modules for advanced learning mechanisms.
 
 ## Usage
@@ -30,12 +30,12 @@ The core simulation engine of the project is located in the "Simulation.py" file
 
 ## Options
 
-YourBrain.py: Edit this file to define custom logic for car navigation. The YourBrain class contains methods to calculate turn angles and car movements.
- -> For the simulation to use your brain also edit Brain.py and initialize YourBrain
-YourIteration.py: Edit this file to customize the car iteration process during the simulation. The YourIteration class allows advanced users to define their iteration logic.
- -> For the simulation to use your iteration process also edit Iteration.py and initialize YourIteration
+YourBrain.py: Edit this file to define custom logic for car navigation. The YourBrain class contains methods to calculate turn angles and car movements.  
+ -> For the simulation to use your brain also edit Brain.py and initialize YourBrain  
+YourIteration.py: Edit this file to customize the car iteration process during the simulation. The YourIteration class allows advanced users to define their iteration logic.  
+ -> For the simulation to use your iteration process also edit Iteration.py and initialize YourIteration  
 
 ## Contact
-[LinkedIn](https://www.linkedin.com/in/joris-plettscher/)
-[GitHub](https://github.com/Joris-Plettscher)
+[LinkedIn](https://www.linkedin.com/in/joris-plettscher/)  
+[GitHub](https://github.com/Joris-Plettscher)  
 Feel free to customize this project to fit specific needs. Happy coding!
