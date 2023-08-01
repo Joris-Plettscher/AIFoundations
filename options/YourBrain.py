@@ -4,7 +4,7 @@ class YourBrain:
     def __init__(self):
         # Initialize your brain here
 
-    def calculate_turn_angle(self, distances, goal_in_range):
+    def calculate_turn_angle(self, distances, goal_distances):
         # Your logic to calculate the angle to which the car should turn goes here
         # You can use the distances and goal_in_range parameters to make decisions
         # about the turn angle
@@ -13,7 +13,7 @@ class YourBrain:
         # Return an integer between 0 and 360
         pass
 
-    def calculate_move(self, distances, goal_in_range):
+    def calculate_move(self, distances, goal_distances):
         # Your logic to determine whether the car should move forward or backward
         # after turning goes here
         # You can use the distances and goal_in_range parameters to make decisions
